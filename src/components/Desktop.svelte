@@ -3,8 +3,10 @@
     import garbage from "$lib/assets/icons/680.ico"
     import IE from "$lib/assets/icons/1487.ico"
     import spider from "$lib/assets/spider_solitaire_icon.png"
+    import pinball from "$lib/assets/pinball_icon.png"
     import Solitaire from "../components/Solitaire.svelte";
-	import { solitaire_open } from "../stores/appStates";
+	import { pinball_open, solitaire_open } from "../stores/appStates";
+	import Pinball from "./Pinball.svelte";
 
     let open_solitaire = false
 </script>
@@ -34,8 +36,15 @@
         <br>
         <span>Spider Solitaire</span>
     </button>
+    <br>
+    <button class="app" on:click={() => $pinball_open=true}>
+        <img src={pinball} alt="">
+        <br>
+        <span>3d Pinball</span>
+    </button>
 
     <Solitaire/>
+    <Pinball/>
 </div>
 
 <style>
