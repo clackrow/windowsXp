@@ -27,7 +27,7 @@
 
 
 {#if $pinball_open}
-    <div class="pinball" use:drag_window>
+    <div class="pinball">
         <div class="top-bar">
             <div class="window-buttons">
                 <input type="image" src={minimize_icon} alt="" class="wd-button">
