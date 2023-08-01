@@ -46,7 +46,7 @@
     .startmenu-texture {
         position: absolute;
         bottom: 0px;
-        height: 3.67em;
+        height: 3.654em;
     }
     .backdrop {
         position: absolute;
