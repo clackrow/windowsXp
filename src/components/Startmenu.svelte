@@ -17,6 +17,7 @@
     import help from "$lib/assets/icons/198.ico"
     import search from "$lib/assets/icons/190.ico"
     import run from "$lib/assets/icons/210.ico"
+	import { about_open } from "../stores/appStates";
 </script>
 
 <div class="start-menu">
@@ -77,7 +78,9 @@
                 <span style="margin-left: 10px;">Printers and Faxes</span>
             </div>
             <hr>
-            <div class="right-element">
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <!-- svelte-ignore a11y-no-static-element-interactions -->
+            <div class="right-element" on:click={() => $about_open=true}>
                 <img src={help} alt="">
                 <span style="margin-left: 10px;">About this App</span>
             </div>
