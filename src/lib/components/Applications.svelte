@@ -1,6 +1,7 @@
 <script>
     import my_computer from "$lib/assets/icons/123.ico"
     import garbage from "$lib/assets/icons/680.ico"
+    import IE from "$lib/assets/icons/1487.ico"
     
 </script>
 
@@ -15,6 +16,11 @@
         <img src={garbage} alt="">
         <br>
         <span>Garbage Bin</span>
+    </div>
+    <div class="app">
+        <img src={IE} alt="">
+        <br>
+        <span>Internet</span>
     </div>
 </div>
 
