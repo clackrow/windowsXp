@@ -79,7 +79,7 @@
             <hr>
             <div class="right-element">
                 <img src={help} alt="">
-                <span style="margin-left: 10px;">Help and Support</span>
+                <span style="margin-left: 10px;">About this App</span>
             </div>
             <div class="right-element">
                 <img src={search} alt="">
@@ -95,7 +95,7 @@
         <div class="shutdown-buttons">
             <input type="image" src={logoff_button} alt="" class="sh-element">
             <span class="sh-element">Log Off</span>
-            <input type="image" src={shutdown_button} alt="" class="sh-element">
+            <a href="https://google.com"><input type="image" src={shutdown_button} alt="" class="sh-element"></a>
             <span class="sh-element">Turn <u>O</u>ff Computer</span>
         </div>
         <img src={taskbar_texture} alt="" class="texture">
@@ -112,6 +112,7 @@
         background-color: white;
         border-top-right-radius: 10px;
         box-sizing: border-box;
+        min-width: 340px;
     }
 
     .content {

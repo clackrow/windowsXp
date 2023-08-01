@@ -5,8 +5,10 @@
     import spider from "$lib/assets/spider_solitaire_icon.png"
     import pinball from "$lib/assets/pinball_icon.png"
     import Solitaire from "../components/Solitaire.svelte";
-	import { pinball_open, solitaire_open } from "../stores/appStates";
+	import { internet_open, pinball_open, solitaire_open } from "../stores/appStates";
 	import Pinball from "./Pinball.svelte";
+    import Internet from "./Internet.svelte"
+	import About from "./About.svelte";
 
     let open_solitaire = false
 </script>
@@ -25,7 +27,7 @@
         <span>Garbage Bin</span>
     </button>
     <br>
-    <button class="app">
+    <button class="app" on:click={() => $internet_open=true}>
         <img src={IE} alt="">
         <br>
         <span>Internet</span>
@@ -45,6 +47,8 @@
 
     <Solitaire/>
     <Pinball/>
+    <Internet/>
+    <About/>
 </div>
 
 <style>

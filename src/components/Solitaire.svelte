@@ -32,6 +32,7 @@
         width: 60vw;
         border: 2px solid blue;
         border-top: 0px;
+        margin-left: 300px;
     }
     .top-bar {
         height: 30px;
