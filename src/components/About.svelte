@@ -43,7 +43,7 @@
                 <h3>Credits for the games included in this app:</h3>
                 Solitaire: <a href="https://github.com/lrusso/Spider" target="_blank">Leonardo Russo</a>
                 <br>
-                Pinball: <a href="https://alula.github.io/SpaceCadetPinball/" target="_blank">(couldn't find the author)</a>
+                Pinball: <a href="https://github.com/alula/SpaceCadetPinball" target="_blank">Alula</a>
             
        </div>
         <div class="bottom-bar">
